@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "Enter the filename to check:"
+read FILE
+
+if [ -f "$FILE" ]; then
+  echo "File '$FILE' exists."
+else
+  echo "File '$FILE' does not exist."
+fi
+
+
+## this is basic script for check the file exists or not
